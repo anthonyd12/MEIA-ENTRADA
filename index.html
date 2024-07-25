@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEIA ENTRADA</title>
+    <style>
+        *{
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container01{
+        width: 100vw;
+            height: 100vh;
+            background-image: url(02.jpeg);
+            background-position: inherit;
+            background-repeat: no-repeat;
+        }
+        .container02{
+        width: 100vw;
+            height: 100vh;
+            background-image: url(01.jpeg);
+            background-position: inherit;
+            background-repeat: no-repeat;
+        }
+        .container03{
+        width: 100vw;
+            height: 100vh;
+        }
+
+        @media (max-width: 700px) {
+    .container01 {
+        background-image: url(mobile.jpeg);
+        background-size: cover; /* Ajustando o tamanho da imagem para cobrir o container */
+        background-position: center; /* Ajustando a posição para o centro */
+    }
+    .container02 {
+        background-image: url(mobile2.jpeg);
+        background-size: cover; /* Ajustando o tamanho da imagem para cobrir o container */
+        background-position: center; /* Ajustando a posição para o centro */
+    }
+    .container03 {
+        background-image: url(mobile3.jpeg);
+        background-size: cover; /* Ajustando o tamanho da imagem para cobrir o container */
+        background-position: center; /* Ajustando a posição para o centro */
+    }
+}
+    </style>
+</head>
+<body>
+    <main class="container01"></main>
+    <main class="container02"></main>
+    <main class="container03"></main>
+</body>
+</html>
